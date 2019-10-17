@@ -18,5 +18,5 @@ from django.urls import path
 import cafes.views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', cafes.views.akill, name='home'),
+    path('', cafes.views.homepage, name='home'),
 ]
